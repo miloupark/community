@@ -1,25 +1,36 @@
-import { useState } from 'react';
-import { View, Text, SafeAreaView, StyleSheet, TextInput, Button } from 'react-native';
+import { useState } from "react";
+import { View, Text, SafeAreaView, StyleSheet, TextInput, Button } from "react-native";
 
 export default function HomeScreen() {
-
-  const [text, setText] = useState('')
+  const [text, setText] = useState("");
 
   return (
     <SafeAreaView>
-      <View style={styles.container}>
-        <Text style={styles.text}>HI</Text>
+      <View style={styles.parent}>
+        <View style={styles.container}>
+          <Text style={styles.text}>HI</Text>
+        </View>
+        <View style={styles.container2}>
+          <Text style={styles.text}>HI</Text>
+          <Text style={styles.text}>HI</Text>
+          <Text style={styles.text}>HI</Text>
+        </View>
       </View>
-      <TextInput value={text} onChangeText={(value)=> setText(value)}
-        style={styles.input}/>
-        <Button title="button title" onPress={()=>console.log('pressed!')}/>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
+  parent: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+  },
   container: {
     backgroundColor: "black",
+  },
+  container2: {
+    backgroundColor: "gray",
   },
   text: {
     fontSize: 30,
@@ -27,5 +38,5 @@ const styles = StyleSheet.create({
   },
   input: {
     fontSize: 30,
-  }
+  },
 });
