@@ -1,4 +1,6 @@
-# Avatar Community App | Learning React Native with Expo
+# Avatar Community App
+
+Avatar Community App | Learning React Native with Expo
 
 ## 📘 About This Project
 
