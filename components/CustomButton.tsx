@@ -9,6 +9,7 @@ interface CustomButtonProps extends PressableProps {
   variant?: "filled";
 }
 
+// 버튼 컴포넌트 정의
 function CustomButton({
   label,
   size = "large",
