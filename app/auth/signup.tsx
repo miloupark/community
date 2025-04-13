@@ -20,7 +20,7 @@ export default function SignupScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1, 
+    flex: 1,
     margin: 16,
     gap: 16,
   },
