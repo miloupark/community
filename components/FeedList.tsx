@@ -10,7 +10,7 @@ const dummyData = [
     title: "더미 제목입니다.",
     description:
       "더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다.",
-    createdAt: "",
+    createdAt: "2025-01-01",
     author: {
       id: 1,
       nickname: "닉네임",
@@ -29,7 +29,7 @@ const dummyData = [
     title: "더미 제목입니다.",
     description:
       "더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다. 더미 내용입니다.",
-    createdAt: "",
+    createdAt: "2025-01-01",
     author: {
       id: 1,
       nickname: "닉네임",
